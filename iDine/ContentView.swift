@@ -12,12 +12,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Text("Hello, world!")
-                Text("Hello, world!")
-                Text("Hello, world!")
+                ForEach(menu) { section in
+                    Section(header: Text(section.name)) {
+                        
+                        ForEach(section.items) { item in
+                            Text(item.name)
+                        }
+                    }
+                }
             }
             .navigationTitle("Menu")
-            .listStyle(PlainListStyle())
+            .listStyle(GroupedListStyle())
         }
     }
 }
@@ -25,5 +30,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+//            .preferredColorScheme(.dark)
     }
 }
