@@ -29,7 +29,7 @@
 			},
 			{
                 "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
-				"name": "Fresh-baked Croissant",
+				"name": "Fresh-Baked Croissant",
 				"photoCredit": "Kavita Joshi Rai",
 				"price": 3,
 				"restrictions": ["D", "G"],
@@ -115,7 +115,7 @@
 			},
 			{
                 "id": "DD20B3C1-438A-4657-BCFA-A0C6DA1AE7EE",
-				"name": "Corn on the cob",
+				"name": "Corn On The Cob",
 				"photoCredit": "Dragne Marius",
 				"price": 6,
 				"restrictions": ["V"],

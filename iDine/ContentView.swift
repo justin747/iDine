@@ -16,7 +16,9 @@ struct ContentView: View {
                     Section(header: Text(section.name)) {
                         
                         ForEach(section.items) { item in
-                            Text(item.name)
+                            NavigationLink(destination: ItemDetail(item: item)) {
+                                ItemRow(item: item)
+                            }
                         }
                     }
                 }
@@ -30,6 +32,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-//            .preferredColorScheme(.dark)
+        //            .preferredColorScheme(.dark)
     }
 }
