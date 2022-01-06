@@ -17,6 +17,7 @@
 		3BA13C2927826D9400A9AD9E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13C2727826D9400A9AD9E /* Order.swift */; };
 		3BA13C2A27826D9400A9AD9E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13C2827826D9400A9AD9E /* Menu.swift */; };
 		3BA13C2C27826DA900A9AD9E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BA13C2B27826DA900A9AD9E /* menu.json */; };
+		3BCEA32727869F9500199D19 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEA32627869F9500199D19 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3BA13C2727826D9400A9AD9E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		3BA13C2827826D9400A9AD9E /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3BA13C2B27826DA900A9AD9E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		3BCEA32627869F9500199D19 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3BA13C1727826D1200A9AD9E /* iDineApp.swift */,
 				3BA13C1927826D1200A9AD9E /* ContentView.swift */,
 				3B023C3127829BA2001D123D /* ItemDetail.swift */,
+				3BCEA32627869F9500199D19 /* OrderView.swift */,
 				3B023C2F278280E1001D123D /* ItemRow.swift */,
 				3BA13C2827826D9400A9AD9E /* Menu.swift */,
 				3BA13C2727826D9400A9AD9E /* Order.swift */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B023C3227829BA2001D123D /* ItemDetail.swift in Sources */,
+				3BCEA32727869F9500199D19 /* OrderView.swift in Sources */,
 				3BA13C1A27826D1200A9AD9E /* ContentView.swift in Sources */,
 				3BA13C1827826D1200A9AD9E /* iDineApp.swift in Sources */,
 				3BA13C2927826D9400A9AD9E /* Order.swift in Sources */,
