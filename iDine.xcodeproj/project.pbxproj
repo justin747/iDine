@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B023C30278280E1001D123D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B023C2F278280E1001D123D /* ItemRow.swift */; };
 		3B023C3227829BA2001D123D /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B023C3127829BA2001D123D /* ItemDetail.swift */; };
+		3B4525772786A501003B6CB0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4525762786A501003B6CB0 /* MainView.swift */; };
 		3BA13C1827826D1200A9AD9E /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13C1727826D1200A9AD9E /* iDineApp.swift */; };
 		3BA13C1A27826D1200A9AD9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA13C1927826D1200A9AD9E /* ContentView.swift */; };
 		3BA13C1C27826D1600A9AD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA13C1B27826D1600A9AD9E /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3B023C2F278280E1001D123D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		3B023C3127829BA2001D123D /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		3B4525762786A501003B6CB0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3BA13C1427826D1200A9AD9E /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA13C1727826D1200A9AD9E /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		3BA13C1927826D1200A9AD9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				3BA13C1927826D1200A9AD9E /* ContentView.swift */,
 				3B023C3127829BA2001D123D /* ItemDetail.swift */,
 				3BCEA32627869F9500199D19 /* OrderView.swift */,
+				3B4525762786A501003B6CB0 /* MainView.swift */,
 				3B023C2F278280E1001D123D /* ItemRow.swift */,
 				3BA13C2827826D9400A9AD9E /* Menu.swift */,
 				3BA13C2727826D9400A9AD9E /* Order.swift */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B023C3227829BA2001D123D /* ItemDetail.swift in Sources */,
+				3B4525772786A501003B6CB0 /* MainView.swift in Sources */,
 				3BCEA32727869F9500199D19 /* OrderView.swift in Sources */,
 				3BA13C1A27826D1200A9AD9E /* ContentView.swift in Sources */,
 				3BA13C1827826D1200A9AD9E /* iDineApp.swift in Sources */,
