@@ -14,28 +14,38 @@ struct OrderView: View {
     var body: some View {
         
         NavigationView {
-                 List {
-                     Section {
-                         ForEach(order.items) { item in
-                             HStack {
-                                 Text(item.name)
-                                 Spacer()
-                                 Text("$\(item.price)")
-                             }
-                         }
-                     }
-
-                     Section {
-                         NavigationLink(destination: CheckoutView()) {
-                             Text("Place Order")
-                         }
-                     }
-                 }
-                 .navigationTitle("Order")
-                 .listStyle(.insetGrouped)
-             }
-         }
-     }
+            List {
+                Section {
+                    ForEach(order.items) { item in
+                        HStack {
+                            Text(item.name)
+                            Spacer()
+                            Text("$\(item.price)")
+                        }
+                    }
+                    .onDelete(perform: deleteItems)
+                }
+                
+                Section {
+                    NavigationLink(destination: CheckoutView()) {
+                        Text("Place Order")
+                    }
+                }
+                .disabled(order.items.isEmpty)
+            }
+            .navigationTitle("Order")
+            .listStyle(.insetGrouped)
+            .toolbar {
+                EditButton()
+            }
+            
+        }
+    }
+    
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
+    }
+}
 
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
